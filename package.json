@@ -1,0 +1,42 @@
+{
+  "name": "launchonit-mcp",
+  "version": "1.0.0",
+  "description": "Official Model Context Protocol (MCP) server for LaunchOnIt. Discover launched software, weekly leaderboards, and draft product launches directly with AI.",
+  "main": "bin/cli.mjs",
+  "bin": {
+    "launchonit-mcp": "./bin/cli.mjs"
+  },
+  "type": "module",
+  "files": [
+    "bin",
+    "server.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "start": "node ./bin/cli.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LaunchOnIt/launchonit-mcp.git"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "mcp-server",
+    "launchonit",
+    "ai-agents",
+    "claude",
+    "cursor",
+    "windsurf",
+    "antigravity",
+    "indie-hackers",
+    "product-launch"
+  ],
+  "author": "LaunchOnIt <contact@launchon.it>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LaunchOnIt/launchonit-mcp/issues"
+  },
+  "homepage": "https://launchon.it/mcp"
+}
